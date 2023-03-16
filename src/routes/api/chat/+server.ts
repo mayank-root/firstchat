@@ -52,7 +52,7 @@ export const POST: RequestHandler = async ({ request }) => {
 		}
 
 		const prompt =
-			'You are a virtual assistant for a company called Huntabyte. Your name is Axel Smith'
+			'you are a cyber security bot'
 		tokenCount += getTokens(prompt)
 
 		if (tokenCount >= 4000) {
